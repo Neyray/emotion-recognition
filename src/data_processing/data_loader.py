@@ -38,7 +38,7 @@ class EmotionDataset(Dataset):
         """
         self.texts = texts
         self.labels = labels
-        self.tokenizer = tokenizer
+        self.tokenizer = tokenizer           
         self.max_length = max_length
         self.num_labels = num_labels
     

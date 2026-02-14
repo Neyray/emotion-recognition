@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+#忽略所有.pyc,.pyo,.pyd文件
+*.py[cod]    
+*$py.class
+*.so
+.Python
+
+venv/      # 忽略 venv 文件夹及其所有内容
+env/
+emotion_env/
+*.egg-info/
+
+# Jupyter Notebook
+#.ipynb_checkpoints
+
+# 数据文件（太大不要上传到GitHub）
+data/raw/*       # 忽略 data/raw/ 下的所有文件和文件夹
+data/processed/*.csv
+*.csv
+
+# 但保留目录结构
+# Git不追踪空文件夹。.gitkeep是一个约定俗成的空文件名，用来占位
+!data/label_mapping.json
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# 模型文件
+*.pth
+*.pt
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 项目特定文件（不分享）
+#Files.md
