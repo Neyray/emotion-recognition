@@ -1,3 +1,5 @@
+#gitignore只对未追踪的新文件有效（没上传到git的）
+
 # Python
 __pycache__/
 #忽略所有.pyc,.pyo,.pyd文件
